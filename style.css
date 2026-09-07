@@ -8,25 +8,29 @@ p {
 
 footer p {
     font-family: cursive;
+    font-size: small;
 }
 
 h1 {
     background: whitesmoke;
     border: 2px black;
     border-style: dashed;
+    text-align: center;
 }
 
 div {
-    background-color: lightslategray; 
+    background-color: whitesmoke; 
+    width: fit-content;
+    border: 2px solid black;
+    padding-left: 20px;
 }
 
 h2 {
     color: lightcoral; 
     font-style: italic; 
+    font-weight: lighter;
 }
 
 ul {
-    background-color: whitesmoke;
-    width: fit-content;
     padding-right: 50px;
 }
