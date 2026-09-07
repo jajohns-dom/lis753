@@ -15,3 +15,12 @@ h1 {
     border: 2px black;
     border-style: dashed;
 }
+
+h2 {
+    color: lightslategray; 
+    font-style: italic; 
+}
+
+li {
+    background-color: whitesmoke; 
+}
