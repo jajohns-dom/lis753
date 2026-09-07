@@ -9,3 +9,9 @@ p {
 footer p {
     font-family: cursive;
 }
+
+h1 {
+    background: whitesmoke;
+    border: 2px black;
+    border-style: dashed;
+}
