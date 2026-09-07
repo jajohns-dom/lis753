@@ -16,13 +16,17 @@ h1 {
     border-style: dashed;
 }
 
+div {
+    background-color: lightslategray; 
+}
+
 h2 {
-    color: lightslategray; 
+    color: lightcoral; 
     font-style: italic; 
 }
 
 ul {
-    background-color: whitesmoke; 
-    border: black;
+    background-color: whitesmoke;
     width: fit-content;
+    padding-right: 50px;
 }
