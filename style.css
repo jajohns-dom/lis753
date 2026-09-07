@@ -21,6 +21,8 @@ h2 {
     font-style: italic; 
 }
 
-li {
+ul {
     background-color: whitesmoke; 
+    border: black;
+    width: fit-content;
 }
