@@ -1,0 +1,5 @@
+Ex 2 notes
+
+.p selects a class named p
+This is why the cursive font didn't work. You did footer.p instead of footer p
+space then element for sub element select
