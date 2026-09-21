@@ -38,8 +38,9 @@ ul {
     width: fit-content;
     color: black;
     padding-left: 20px;
+    height: 150px;
 }
 
 #cool-sites {
-    
+    border-color: lightcoral;
 }
