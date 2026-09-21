@@ -34,10 +34,10 @@ ul {
 }
 
 .sectors {
-    border: 4px dotted black
+    border: 4px dotted black;
+    width: fit-content;
 }
 
 #cool-sites {
     padding-left: 20px;
-    width: fit-content;
 }
