@@ -36,8 +36,10 @@ ul {
 .sectors {
     border: 4px dotted black;
     width: fit-content;
+    color: black;
+    padding-left: 20px;
 }
 
 #cool-sites {
-    padding-left: 20px;
+    
 }
