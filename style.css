@@ -28,6 +28,12 @@ ul {
     padding-right: 50px;
 }
 
+.menu ul {
+    display: flex;
+    list-style-type: none;  
+    gap: 20px; 
+}
+
 .sector {
     background-color: whitesmoke; 
     border: 2px solid black;
