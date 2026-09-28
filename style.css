@@ -39,8 +39,12 @@ ul {
 }
 
 .menu a {
+    display: block; 
     color: whitesmoke; 
     text-decoration: none; 
+    border: 3px solid lightcoral; 
+    padding: 8px 16px; 
+    border-radius: 10px;
 }
 
 .sector {
