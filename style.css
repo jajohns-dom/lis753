@@ -47,6 +47,10 @@ ul {
     border-radius: 10px;
 }
 
+.cards {
+    display: flex; 
+}
+
 .sector {
     background-color: whitesmoke; 
     border: 2px solid black;
