@@ -31,7 +31,10 @@ ul {
 .menu ul {
     display: flex;
     list-style-type: none;  
+    padding: 0;
     gap: 20px; 
+    align-items: center; 
+    justify-content: space-around; 
 }
 
 .sector {
