@@ -43,7 +43,11 @@ th, td {
 }
 
 caption {
-    caption-side: bottom;
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: 8px;
 }
 
 form.sector label {
