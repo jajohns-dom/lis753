@@ -48,6 +48,8 @@ caption {
     font-weight: bold;
     font-style: normal;
     padding-bottom: 8px;
+    caption-side: bottom;
+    text-align: right;
 }
 
 form.sector label {
