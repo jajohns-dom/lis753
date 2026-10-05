@@ -51,6 +51,10 @@ form.sector label {
     width: 90px; 
 }
 
+form.sector div {
+    margin-bottom: 10px;
+}
+
 .menu ul {
     display: flex;
     list-style-type: none;  
