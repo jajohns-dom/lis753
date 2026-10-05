@@ -26,83 +26,86 @@
         </ul>
     </nav>
 
-    <table>
-        <caption>Upcoming Programs</caption>
-        <thead>
-            <tr>
-                <th scope="col">Program</th>
-                <th scope="col">Date</th>
-                <th scope="col">Time</th>
-                <th scope="col">Location</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Community Book Club</td>
-                <td>Oct. 8</td>
-                <td>6:30 PM</td>
-                <td>Room A</td>
-            </tr>
-            <tr>
-                <td>Family Story Time</td>
-                <td>Oct. 10</td>
-                <td>10:00 AM</td>
-                <td>Children's Room</td>
-            </tr>
-            <tr>
-                <td>Genealogy Workshop</td>
-                <td>Oct. 12</td>
-                <td>2:00 PM</td>
-                <td>Room B</td>
-            </tr>
-            <tr>
-                <td>Intro to 3D Printing</td>
-                <td>Oct. 15</td>
-                <td>6:00 PM</td>
-                <td>Makerspace</td>
-            </tr>
-            <tr>
-                <td>Local History Talk</td>
-                <td>Oct. 18</td>
-                <td>1:00 PM</td>
-                <td>Auditorium</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="cards">
+        <table class="sector">
+            <caption>Upcoming Programs</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Program</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Community Book Club</td>
+                    <td>Oct. 8</td>
+                    <td>6:30 PM</td>
+                    <td>Room A</td>
+                </tr>
+                <tr>
+                    <td>Family Story Time</td>
+                    <td>Oct. 10</td>
+                    <td>10:00 AM</td>
+                    <td>Children's Room</td>
+                </tr>
+                <tr>
+                    <td>Genealogy Workshop</td>
+                    <td>Oct. 12</td>
+                    <td>2:00 PM</td>
+                    <td>Room B</td>
+                </tr>
+                <tr>
+                    <td>Intro to 3D Printing</td>
+                    <td>Oct. 15</td>
+                    <td>6:00 PM</td>
+                    <td>Makerspace</td>
+                </tr>
+                <tr>
+                    <td>Local History Talk</td>
+                    <td>Oct. 18</td>
+                    <td>1:00 PM</td>
+                    <td>Auditorium</td>
+                </tr>
+            </tbody>
+        </table>
 
-    <form>
-        <div>
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="First Last">
-        </div>
-                <div>
-            <label for="email">Your Email</label>
-            <input type="text" id="email" name="email" placeholder="you@example.com">
-        </div>
-        <div>
-            <label for="program">Program</label>
-            <select id="program" name="program">
-                <option value="">Select a Program</option>
-                <option value="book-club">Community Book Club</option>
-                <option value="story-time">Family Story Time</option>
-                <option value="genealogy">Genealogy Workshop</option>
-                <option value="3d-printing">Intro to 3D Printing</option>
-                <option value="local-history">Local History Talk</option>
-            </select>
-        </div>
-        <div>
-            <input type="radio" id="in-person" name="attend" value="in-person">
-            <label for="in-person">In Person</label>
-        </div>
-        <div>
-            <input type="radio" id="online" name="attend" value="online">
-            <label for="online">Online</label>
-        </div>
-        <div>
-            <input type="submit" value="Register">
-        </div>
+        <form class="sector">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="First Last">
+            </div>
+                    <div>
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" placeholder="you@example.com">
+            </div>
+            <div>
+                <label for="program">Program</label>
+                <select id="program" name="program">
+                    <option value="">Select a Program</option>
+                    <option value="book-club">Community Book Club</option>
+                    <option value="story-time">Family Story Time</option>
+                    <option value="genealogy">Genealogy Workshop</option>
+                    <option value="3d-printing">Intro to 3D Printing</option>
+                    <option value="local-history">Local History Talk</option>
+                </select>
+            </div>
+            <div>
+                <input type="radio" id="in-person" name="attend" value="in-person">
+                <label for="in-person">In Person</label>
+            </div>
+            <div>
+                <input type="radio" id="online" name="attend" value="online">
+                <label for="online">Online</label>
+            </div>
+            <div>
+                <input type="submit" value="Register">
+            </div>
 
-    </form>
+        </form>
+    </div>
+    
 
     <footer>
       <p>©Copyright 2026 by Me. All rights reversed.</p>
