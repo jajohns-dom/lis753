@@ -46,10 +46,10 @@ caption {
     color: whitesmoke;
     font-size: large;
     font-weight: bold;
-    font-style: normal;
-    padding-bottom: 8px;
-    caption-side: bottom;
-    text-align: right;
+    padding: 8px;
+    background-color: teal;
+    border-radius: 8px;
+    border: 5px double black;
 }
 
 form.sector label {
