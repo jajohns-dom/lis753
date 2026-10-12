@@ -1,14 +1,13 @@
-html {
-    background: teal; 
-}
-
 body {
-    background: rgb(1, 66, 68);
-    width: 900px; 
-    margin: 8px auto; 
-    padding: 20px;
+    background: rgb(250, 243, 230);
+    color: rgb(74, 46, 30);
+    font-family: sans-serif;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-
+/*
 p {
     color: whitesmoke;
 }
