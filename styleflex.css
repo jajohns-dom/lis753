@@ -62,7 +62,13 @@ th, td {
 }
 
 caption {
+    background: rgb(54, 36, 28);
+    color: rgb(250, 243, 230);
     caption-side: bottom;
+    font-family: "Lora", serif;
+    text-align: center;
+    padding: 8px;
+    border-radius: 0 0 10px 10px;
 }
 
 form.sector label {
