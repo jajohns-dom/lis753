@@ -15,6 +15,10 @@ h1, h2 {
 h1 {
     text-align: center;
 }
+h2 {
+    border-bottom: 2px solid rgb(140, 94, 62);
+    padding-bottom: 6px;
+}
 
 .menu ul {
     display: flex;
@@ -51,6 +55,10 @@ main section {
     border: 2px solid rgb(74, 46, 30);
     border-radius: 10px;
     padding: 15px;
+}
+
+section #upcoming {
+    border-radius: 10px 10px 0 0; 
 }
 
 table.sector {
