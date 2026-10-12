@@ -41,6 +41,11 @@ th, td {
     padding: 6px 12px;
 }
 
+footer p {
+    text-align: center;
+    font-size: small;
+}
+
 /*
 p {
     color: whitesmoke;
