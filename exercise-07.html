@@ -12,105 +12,112 @@
   </head>
 
   <body>
-    <h1>Exercise 7</h1>
-    <nav class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="exercise-01.html">Exercise 1</a></li>
-            <li><a href="exercise-02.html">Exercise 2</a></li>
-            <li><a href="exercise-03.html">Exercise 3</a></li>
-            <li><a href="exercise-04.html">Exercise 4</a></li>
-            <li><a href="exercise-05.html">Exercise 5</a></li>    
-            <li><a href="exercise-06.html">Exercise 6</a></li>
-            <li><a href="exercise-08.html">Exercise 5</a></li>      
-            <li><a href="exercise-09.html">Exercise 5</a></li>                    
-            <li><a href="https://github.com/jajohns-dom/lis753">Github</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>Library</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercise-01.html">Exercise 1</a></li>
+                <li><a href="exercise-02.html">Exercise 2</a></li>
+                <li><a href="exercise-03.html">Exercise 3</a></li>
+                <li><a href="exercise-04.html">Exercise 4</a></li>
+                <li><a href="exercise-05.html">Exercise 5</a></li>    
+                <li><a href="exercise-06.html">Exercise 6</a></li>
+                <li><a href="exercise-08.html">Exercise 5</a></li>      
+                <li><a href="exercise-09.html">Exercise 5</a></li>                    
+                <li><a href="https://github.com/jajohns-dom/lis753">Github</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>Upcoming Programs</h2>
+    <main>
+        <h2>Upcoming Programs</h2>
 
-    <div class="cards">
-        <table class="sector">
-            <caption>October 2026</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Program</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Time</th>
-                    <th scope="col">Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Community Book Club</td>
-                    <td>Oct. 8</td>
-                    <td>6:30 PM</td>
-                    <td>Room A</td>
-                </tr>
-                <tr>
-                    <td>Family Story Time</td>
-                    <td>Oct. 10</td>
-                    <td>10:00 AM</td>
-                    <td>Children's Room</td>
-                </tr>
-                <tr>
-                    <td>Genealogy Workshop</td>
-                    <td>Oct. 12</td>
-                    <td>2:00 PM</td>
-                    <td>Room B</td>
-                </tr>
-                <tr>
-                    <td>Intro to 3D Printing</td>
-                    <td>Oct. 15</td>
-                    <td>6:00 PM</td>
-                    <td>Makerspace</td>
-                </tr>
-                <tr>
-                    <td>Local History Talk</td>
-                    <td>Oct. 18</td>
-                    <td>1:00 PM</td>
-                    <td>Auditorium</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="cards">
+            <table class="sector">
+                <caption>October 2026</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Program</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Community Book Club</td>
+                        <td>Oct. 8</td>
+                        <td>6:30 PM</td>
+                        <td>Room A</td>
+                    </tr>
+                    <tr>
+                        <td>Family Story Time</td>
+                        <td>Oct. 10</td>
+                        <td>10:00 AM</td>
+                        <td>Children's Room</td>
+                    </tr>
+                    <tr>
+                        <td>Genealogy Workshop</td>
+                        <td>Oct. 12</td>
+                        <td>2:00 PM</td>
+                        <td>Room B</td>
+                    </tr>
+                    <tr>
+                        <td>Intro to 3D Printing</td>
+                        <td>Oct. 15</td>
+                        <td>6:00 PM</td>
+                        <td>Makerspace</td>
+                    </tr>
+                    <tr>
+                        <td>Local History Talk</td>
+                        <td>Oct. 18</td>
+                        <td>1:00 PM</td>
+                        <td>Auditorium</td>
+                    </tr>
+                </tbody>
+            </table>
 
-        <form class="sector">
-            <h3>Sign Up</h3>
-            <div>
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="First Last">
-            </div>
-                    <div>
-                <label for="email">Your Email</label>
-                <input type="text" id="email" name="email" placeholder="you@example.com">
-            </div>
-            <div>
-                <label for="program">Program</label>
-                <select id="program" name="program">
-                    <option value="">Select a Program</option>
-                    <option value="book-club">Community Book Club</option>
-                    <option value="story-time">Family Story Time</option>
-                    <option value="genealogy">Genealogy Workshop</option>
-                    <option value="3d-printing">Intro to 3D Printing</option>
-                    <option value="local-history">Local History Talk</option>
-                </select>
-            </div>
-            <div>
-                <input type="radio" id="in-person" name="attend" value="in-person">
-                <label for="in-person">In Person</label>
-            </div>
-            <div>
-                <input type="radio" id="online" name="attend" value="online">
-                <label for="online">Online</label>
-            </div>
-            <div>
-                <input type="submit" value="Register">
-            </div>
+            <form class="sector">
+                <h3>Sign Up</h3>
+                <div>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="First Last">
+                </div>
+                        <div>
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email" placeholder="you@example.com">
+                </div>
+                <div>
+                    <label for="program">Program</label>
+                    <select id="program" name="program">
+                        <option value="">Select a Program</option>
+                        <option value="book-club">Community Book Club</option>
+                        <option value="story-time">Family Story Time</option>
+                        <option value="genealogy">Genealogy Workshop</option>
+                        <option value="3d-printing">Intro to 3D Printing</option>
+                        <option value="local-history">Local History Talk</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" id="in-person" name="attend" value="in-person">
+                    <label for="in-person">In Person</label>
+                </div>
+                <div>
+                    <input type="radio" id="online" name="attend" value="online">
+                    <label for="online">Online</label>
+                </div>
+                <div>
+                    <input type="submit" value="Register">
+                </div>
 
-        </form>
-    </div>
+            </form>
+        </div>
+    </main>
     
+    <aside>
+        <p>registration note placeholder</p>
+    </aside>
 
     <footer>
       <p>©Copyright 2026 by Me. All rights reversed.</p>
