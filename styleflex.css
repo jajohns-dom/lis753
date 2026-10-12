@@ -1,0 +1,107 @@
+html {
+    background: teal; 
+}
+
+body {
+    background: rgb(1, 66, 68);
+    width: 900px; 
+    margin: 8px auto; 
+    padding: 20px;
+}
+
+p {
+    color: whitesmoke;
+}
+
+footer p {
+    font-family: cursive;
+    font-size: small;
+}
+
+h1 {
+    background: whitesmoke;
+    border: 2px black;
+    border-style: dashed;
+    text-align: center;
+}
+
+h2 {
+    color: lightcoral; 
+    font-style: italic; 
+    font-weight: lighter;
+}
+
+table.sector, form.sector {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 6px 12px;
+}
+
+caption {
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    padding: 8px;
+    background-color: teal;
+    border-radius: 8px;
+    border: 5px double black;
+}
+
+form.sector label {
+    display: inline-block;
+    width: 90px; 
+}
+
+form.sector div {
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;  
+    padding: 0;
+    gap: 20px; 
+    align-items: center; 
+    justify-content: space-around; 
+    color: whitesmoke; 
+}
+
+.menu a {
+    display: block; 
+    color: whitesmoke; 
+    text-decoration: none; 
+    border: 3px solid lightcoral; 
+    padding: 8px 16px; 
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex; 
+}
+
+.sector {
+    background-color: whitesmoke; 
+    border: 2px solid black;
+    width: 350px;
+    color: black;
+    padding-left: 20px;
+    height: 150px;
+    margin: 30px auto;
+}
+
+.sector p {
+    color: black;
+}
+
+.sector a {
+    color: teal;
+}
+
+#cool-sites {
+    border-color: lightcoral;
+}
