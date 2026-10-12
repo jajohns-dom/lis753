@@ -19,10 +19,13 @@ h1 {
 .menu ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
     flex-wrap: wrap;
-    gap: 12px;
     justify-content: center;
+    margin: 0;
+    padding: 6px;
+    gap: 6px;
+    background: rgb(74, 46, 30);
+    border-radius: 10px;
 }
 
 main {
