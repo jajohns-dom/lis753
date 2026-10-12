@@ -49,6 +49,10 @@ th, td {
     padding: 6px 12px;
 }
 
+caption {
+    caption-side: bottom;
+}
+
 form.sector label {
     display: inline-block;
     width: 90px; 
