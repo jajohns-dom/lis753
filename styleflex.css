@@ -24,8 +24,17 @@ h1 {
     margin: 0;
     padding: 6px;
     gap: 6px;
-    background: rgb(74, 46, 30);
+    background: rgb(54, 36, 28);
     border-radius: 10px;
+}
+
+.menu a {
+    display: block;
+    color: rgb(250, 243, 230);
+    text-decoration: none;
+    font-size: small;
+    padding: 4px 10px;
+    border-radius: 6px;
 }
 
 main {
