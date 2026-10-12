@@ -7,6 +7,25 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+main section {
+    flex: 1;
+}
+
 /*
 p {
     color: whitesmoke;
@@ -58,16 +77,6 @@ form.sector label {
 
 form.sector div {
     margin-bottom: 10px;
-}
-
-.menu ul {
-    display: flex;
-    list-style-type: none;  
-    padding: 0;
-    gap: 20px; 
-    align-items: center; 
-    justify-content: space-around; 
-    color: whitesmoke; 
 }
 
 .menu a {
