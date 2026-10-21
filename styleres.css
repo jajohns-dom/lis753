@@ -49,6 +49,7 @@ h2 {
 
 main {
     display: flex;
+    flex-direction: column; 
     gap: 20px;
 }
 
@@ -98,6 +99,19 @@ footer p {
     text-align: center;
     font-size: small;
 }
+
+@media all and (min-width: 375px) {
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 1200px) {
+    main {
+        flex-direction: row;
+    }
+}
+
 
 /*
 p {
