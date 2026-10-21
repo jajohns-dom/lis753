@@ -104,8 +104,10 @@ footer p {
 }
 
 @media all and (min-width: 768px) {
-    padding: 20px 40px;
-}
+    body {
+        padding: 20px 40px;
+    }
+} 
 
 @media all and (min-width: 1200px) {
     main {
