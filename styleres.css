@@ -2,7 +2,7 @@ body {
     background: rgb(250, 243, 230);
     color: rgb(74, 46, 30);
     font-family: sans-serif;
-    padding: 20px 40px;
+    padding: 20px 6px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -38,7 +38,7 @@ h2 {
     color: rgb(250, 243, 230);
     text-decoration: none;
     font-size: small;
-    padding: 4px 10px;
+    padding: 10px 14px;
     border-radius: 6px;
 }
 
@@ -104,6 +104,7 @@ footer p {
 }
 
 @media all and (min-width: 768px) {
+    padding: 20px 40px;
 }
 
 @media all and (min-width: 1200px) {
