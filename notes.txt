@@ -11,3 +11,4 @@ Ex 10
 type="module" makes a script private
 onclick can only call functions that aren't private
 
+my guy...maybe don't put the button inside the thing that toggles. 
