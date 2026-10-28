@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElementById("myDIV");
+  var x = document.getElementById("hide-away");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
