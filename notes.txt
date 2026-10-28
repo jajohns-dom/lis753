@@ -5,3 +5,9 @@ This is why the cursive font didn't work. You did footer.p instead of footer p
 space then element for sub element select
 
 caption { caption-side: bottom; }
+
+Ex 10 
+
+type="module" makes a script private
+onclick can only call functions that aren't private
+
