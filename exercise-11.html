@@ -34,6 +34,7 @@
                         <th scope="col">Date</th>
                         <th scope="col">Time</th>
                         <th scope="col">Location</th>
+                        <th scope="col">Details</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,6 +43,8 @@
                         <td>Oct. 8</td>
                         <td>6:30 PM</td>
                         <td>Room A</td>
+                        <td><button type="button" class="details-button" data-target="book-club">View Details</button>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">Family Story Time</th>
@@ -69,6 +72,14 @@
                     </tr>
                 </tbody>
             </table>
+            <div>
+                <h2>Program Details</h2>
+                <p>Select a program above to learn more.</p>
+                <div id="book-club" class="program-details" hidden>
+                    <h3>Book Club Details</h3>
+                    <p>Some details about this event...</p>
+                </div>
+            </div>
         </section>
         <section>
             <h2>Sign Up</h2>
@@ -128,6 +139,7 @@
         <p>©Copyright 2026 by Me. All rights reversed.</p>
     </footer>
 
+    <script src="./script-ex-11.js"></script>
 </body>
 
 </html>
