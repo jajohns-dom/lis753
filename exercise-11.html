@@ -80,76 +80,77 @@
                     </tr>
                 </tbody>
             </table>
-            <div>
-                <h2>Program Details</h2>
-                <p>Select a program above to learn more.</p>
-                <div id="book-club" class="program-details" hidden>
-                    <h3>Book Club Details</h3>
-                    <p>A monthly discussion of one book chosen by the group, for adults. Bring your copy.</p>
-                </div>
-                <div id="story-time" class="program-details" hidden>
-                    <h3>Story Time Details</h3>
-                    <p>Stories, songs and a short craft for ages 3 to 6 with a grown-up. Nothing to bring.</p>
-                </div>
-                <div id="genealogy" class="program-details" hidden>
-                    <h3>Genealogy Workshop Details</h3>
-                    <p>An intro to tracing family history with library databases, for adults and teens. Bring any names
-                        and dates you have. Also streamed online.</p>
-                </div>
-                <div id="3d-printing" class="program-details" hidden>
-                    <h3>3D Printing Details</h3>
-                    <p>How the makerspace printers work, plus a small first print. Ages 12 and up. Nothing to bring.</p>
-                </div>
-                <div id="local-history" class="program-details" hidden>
-                    <h3>Local History Talk Details</h3>
-                    <p>Neighborhood history with photos from the library's collection, for everyone. Also streamed
-                        online.</p>
-                </div>
+        </section>
+        <secton>
+            <h2>Program Details</h2>
+            <p>Select a program to learn more.</p>
+            <div id="book-club" class="program-details" hidden>
+                <h3>Book Club Details</h3>
+                <p>A monthly discussion of one book chosen by the group, for adults. Bring your copy.</p>
             </div>
-        </section>
+            <div id="story-time" class="program-details" hidden>
+                <h3>Story Time Details</h3>
+                <p>Stories, songs and a short craft for ages 3 to 6 with a grown-up. Nothing to bring.</p>
+            </div>
+            <div id="genealogy" class="program-details" hidden>
+                <h3>Genealogy Workshop Details</h3>
+                <p>An intro to tracing family history with library databases, for adults and teens. Bring any names
+                    and dates you have. Also streamed online.</p>
+            </div>
+            <div id="3d-printing" class="program-details" hidden>
+                <h3>3D Printing Details</h3>
+                <p>How the makerspace printers work, plus a small first print. Ages 12 and up. Nothing to bring.</p>
+            </div>
+            <div id="local-history" class="program-details" hidden>
+                <h3>Local History Talk Details</h3>
+                <p>Neighborhood history with photos from the library's collection, for everyone. Also streamed
+                    online.</p>
+            </div>
 
-        <section>
-            <h2>Sign Up</h2>
-            <form class="sector">
+            </section>
 
-                <div>
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="First Last">
-                </div>
-                <div>
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com">
-                </div>
-                <div>
-                    <label for="program">Program</label>
-                    <select id="program" name="program">
-                        <option value="">Select a Program</option>
-                        <option value="book-club">Community Book Club</option>
-                        <option value="story-time">Family Story Time</option>
-                        <option value="genealogy">Genealogy Workshop</option>
-                        <option value="3d-printing">Intro to 3D Printing</option>
-                        <option value="local-history">Local History Talk</option>
-                    </select>
-                </div>
+            <section>
+                <h2>Sign Up</h2>
+                <form class="sector">
 
-                <fieldset>
-                    <legend>Session type:</legend>
                     <div>
-                        <input type="radio" id="in-person" name="attend" value="in-person">
-                        <label for="in-person">In Person</label>
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="First Last">
                     </div>
                     <div>
-                        <input type="radio" id="online" name="attend" value="online">
-                        <label for="online">Online</label>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com">
                     </div>
-                </fieldset>
+                    <div>
+                        <label for="program">Program</label>
+                        <select id="program" name="program">
+                            <option value="">Select a Program</option>
+                            <option value="book-club">Community Book Club</option>
+                            <option value="story-time">Family Story Time</option>
+                            <option value="genealogy">Genealogy Workshop</option>
+                            <option value="3d-printing">Intro to 3D Printing</option>
+                            <option value="local-history">Local History Talk</option>
+                        </select>
+                    </div>
 
-                <div>
-                    <input type="submit" value="Register">
-                </div>
+                    <fieldset>
+                        <legend>Session type:</legend>
+                        <div>
+                            <input type="radio" id="in-person" name="attend" value="in-person">
+                            <label for="in-person">In Person</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="online" name="attend" value="online">
+                            <label for="online">Online</label>
+                        </div>
+                    </fieldset>
 
-            </form>
-        </section>
+                    <div>
+                        <input type="submit" value="Register">
+                    </div>
+
+                </form>
+            </section>
     </main>
 
     <aside>
