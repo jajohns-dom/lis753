@@ -1,6 +1,6 @@
 body {
-    background: rgb(250, 243, 230);
-    color: rgb(74, 46, 30);
+    background: rgb(245, 242, 234);
+    color: rgb(30, 38, 32);
     font-family: sans-serif;
     padding: 20px 6px;
     display: flex;
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: 2px solid rgb(140, 94, 62);
+    border-bottom: 2px solid rgb(31, 77, 52);
     padding-bottom: 6px;
 }
 
@@ -29,13 +29,13 @@ h2 {
     margin: 0;
     padding: 6px;
     gap: 6px;
-    background: rgb(54, 36, 28);
+    background: rgb(22, 56, 38);
     border-radius: 10px;
 }
 
 .menu a {
     display: block;
-    color: rgb(250, 243, 230);
+    color: rgb(245, 242, 234);
     text-decoration: none;
     font-size: small;
     padding: 10px 14px;
@@ -44,7 +44,7 @@ h2 {
 
 .menu a:hover,
 .menu a:focus {
-    background: rgb(140, 94, 62);
+    background: rgb(52, 112, 76);
 }
 
 main {
@@ -58,8 +58,8 @@ main section {
 }
 
 .sector {
-    background-color: rgb(238, 225, 205);
-    border: 2px solid rgb(74, 46, 30);
+    background-color: rgb(228, 236, 226);
+    border: 2px solid rgb(22, 56, 38);
     border-radius: 10px;
     padding: 15px;
 }
@@ -77,8 +77,8 @@ th, td {
 }
 
 caption {
-    background: rgb(54, 36, 28);
-    color: rgb(250, 243, 230);
+    background: rgb(22, 56, 38);
+    color: rgb(245, 242, 234);
     caption-side: bottom;
     font-family: "Lora", serif;
     text-align: center;
@@ -93,6 +93,22 @@ form.sector label {
 
 form.sector div {
     margin-bottom: 10px;
+}
+
+button,
+input[type="submit"] {
+    background: rgb(22, 56, 38);
+    color: rgb(245, 242, 234);
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: rgb(52, 112, 76);
 }
 
 footer p {
@@ -115,88 +131,3 @@ footer p {
     }
 }
 
-
-/*
-p {
-    color: whitesmoke;
-}
-
-footer p {
-    font-family: cursive;
-    font-size: small;
-}
-
-h1 {
-    background: whitesmoke;
-    border: 2px black;
-    border-style: dashed;
-    text-align: center;
-}
-
-h2 {
-    color: lightcoral; 
-    font-style: italic; 
-    font-weight: lighter;
-}
-
-table.sector, form.sector {
-    width: auto;
-    height: auto;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-th, td {
-    padding: 6px 12px;
-}
-
-caption {
-    color: whitesmoke;
-    font-size: large;
-    font-weight: bold;
-    padding: 8px;
-    background-color: teal;
-    border-radius: 8px;
-    border: 5px double black;
-}
-
-
-
-form.sector div {
-    margin-bottom: 10px;
-}
-
-.menu a {
-    display: block; 
-    color: whitesmoke; 
-    text-decoration: none; 
-    border: 3px solid lightcoral; 
-    padding: 8px 16px; 
-    border-radius: 10px;
-}
-
-.cards {
-    display: flex; 
-}
-
-.sector {
-    background-color: whitesmoke; 
-    border: 2px solid black;
-    width: 350px;
-    color: black;
-    padding-left: 20px;
-    height: 150px;
-    margin: 30px auto;
-}
-
-.sector p {
-    color: black;
-}
-
-.sector a {
-    color: teal;
-}
-
-#cool-sites {
-    border-color: lightcoral;
-}
