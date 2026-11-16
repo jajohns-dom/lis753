@@ -12,3 +12,12 @@ type="module" makes a script private
 onclick can only call functions that aren't private
 
 my guy...maybe don't put the button inside the thing that toggles. 
+
+ex 12
+
+.value on a select gives the option's value="" (book-club), not the words shown
+options is the dropdown's numbered list of its options
+selectedIndex is the number of the one that's picked
+.text is the words shown for that options
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex for ref
