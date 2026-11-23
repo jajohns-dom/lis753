@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background: rgb(250, 245, 238);
-    color: rgb(66, 54, 46);
+    background: rgb(245, 242, 237);
+    color: rgb(56, 48, 43);
     font-family: sans-serif;
     line-height: 1.6;
 }
@@ -16,7 +16,7 @@ header {
     align-items: center;
     gap: 10px;
     padding: 12px 20px;
-    background: rgb(110, 82, 64);
+    background: rgb(86, 80, 76);
 }
 
 .brand {
@@ -37,13 +37,13 @@ h1, h2, h3 {
 h1 {
     margin: 0;
     font-size: 1.3rem;
-    color: rgb(250, 245, 238);
+    color: rgb(247, 245, 242);
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 14px;
-    border-bottom: 2px solid rgb(226, 210, 192);
+    border-bottom: 2px solid rgb(196, 186, 176);
     padding-bottom: 6px;
 }
 
@@ -60,14 +60,14 @@ h2 {
     display: block;
     padding: 8px 14px;
     border-radius: 6px;
-    color: rgb(250, 245, 238);
+    color: rgb(247, 245, 242);
     text-decoration: none;
 }
 
 .menu a:hover,
 .menu a:focus,
 .menu .current {
-    background: rgb(132, 100, 80);
+    background: rgb(112, 104, 98);
 }
 
 main {
@@ -80,7 +80,7 @@ main {
 }
 
 a {
-    color: rgb(130, 74, 40);
+    color: rgb(112, 92, 78);
 }
 
 .lead {
@@ -97,14 +97,14 @@ a {
 .button {
     padding: 10px 18px;
     border-radius: 6px;
-    background: rgb(110, 82, 64);
-    color: rgb(250, 245, 238);
+    background: rgb(112, 92, 78);
+    color: rgb(247, 245, 242);
     text-decoration: none;
 }
 
 .button:hover,
 .button:focus {
-    background: rgb(132, 100, 80);
+    background: rgb(90, 73, 61);
 }
 
 .cards {
@@ -117,20 +117,20 @@ a {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    border: 1px solid rgb(232, 218, 202);
+    border: 1px solid rgb(200, 192, 184);
     border-radius: 10px;
-    background: rgb(255, 251, 246);
+    background: rgb(222, 218, 213);
 }
 
 .card img {
     width: 100%;
-    border: 1px solid rgb(232, 218, 202);
+    border: 1px solid rgb(200, 192, 184);
     border-radius: 6px;
 }
 
 .card a:hover img,
 .card a:focus img {
-    border-color: rgb(130, 74, 40);
+    border-color: rgb(112, 92, 78);
 }
 
 .card h3 {
@@ -147,7 +147,7 @@ a {
 
 footer {
     padding: 12px;
-    border-top: 1px solid rgb(226, 210, 192);
+    border-top: 1px solid rgb(196, 186, 176);
     text-align: center;
     font-size: small;
 }
