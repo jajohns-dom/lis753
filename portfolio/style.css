@@ -76,6 +76,30 @@ a {
     color: rgb(130, 74, 40);
 }
 
+.lead {
+    font-size: 1.15rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 18px;
+    border-radius: 6px;
+    background: rgb(110, 82, 64);
+    color: rgb(250, 245, 238);
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    background: rgb(132, 100, 80);
+}
+
 footer {
     padding: 12px;
     border-top: 1px solid rgb(226, 210, 192);
