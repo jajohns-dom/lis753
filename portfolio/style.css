@@ -1,133 +1,28 @@
 body {
-    background: rgb(245, 242, 234);
-    color: rgb(30, 38, 32);
-    font-family: sans-serif;
-    padding: 20px 6px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-h1, h2 {
-    font-family: "Lora", serif;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    border-bottom: 2px solid rgb(31, 77, 52);
-    padding-bottom: 6px;
-}
-
-.menu ul {
-    display: flex;
-    list-style-type: none;
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 0;
-    padding: 6px;
-    gap: 6px;
-    background: rgb(22, 56, 38);
-    border-radius: 10px;
+    background: rgb(250, 245, 238);
+    color: rgb(66, 54, 46);
+    font-family: sans-serif;
+    line-height: 1.6;
 }
 
-.menu a {
-    display: block;
-    color: rgb(245, 242, 234);
-    text-decoration: none;
-    font-size: small;
-    padding: 10px 14px;
-    border-radius: 6px;
-}
-
-.menu a:hover,
-.menu a:focus {
-    background: rgb(52, 112, 76);
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 20px;
 }
 
-main section {
-    flex: 1;
+a {
+    color: rgb(130, 74, 40);
 }
 
-.sector {
-    background-color: rgb(228, 236, 226);
-    border: 2px solid rgb(22, 56, 38);
-    border-radius: 10px;
-    padding: 15px;
-}
-
-#upcoming table {
-    border-radius: 10px 10px 0 0; 
-}
-
-table.sector {
-    width: 100%;
-}
-
-th, td {
-    padding: 6px 12px;
-}
-
-caption {
-    background: rgb(22, 56, 38);
-    color: rgb(245, 242, 234);
-    caption-side: bottom;
-    font-family: "Lora", serif;
-    text-align: center;
-    padding: 8px;
-    border-radius: 0 0 10px 10px;
-}
-
-form.sector label {
-    display: inline-block;
-    width: 90px; 
-}
-
-form.sector div {
-    margin-bottom: 10px;
-}
-
-button,
-input[type="submit"] {
-    background: rgb(22, 56, 38);
-    color: rgb(245, 242, 234);
-    border: none;
-    border-radius: 6px;
-    padding: 6px 12px;
-}
-
-button:hover,
-button:focus,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-    background: rgb(52, 112, 76);
-}
-
-footer p {
+footer {
+    padding: 12px;
+    border-top: 1px solid rgb(226, 210, 192);
     text-align: center;
     font-size: small;
 }
-
-@media all and (min-width: 375px) {
-}
-
-@media all and (min-width: 768px) {
-    body {
-        padding: 20px 40px;
-    }
-} 
-
-@media all and (min-width: 1200px) {
-    main {
-        flex-direction: row;
-    }
-}
-
