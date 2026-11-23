@@ -28,3 +28,8 @@ footer was floating in the middle of the home page cause there isnt enough conte
 body { display: flex; flex-direction: column; min-height: 100vh; } and main { flex: 1; }
 100vh is the full height of the window, main grows to fill it so the footer gets pushed to the bottom
 https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
+
+put the img inside the a so the picture links to the full size
+clicking it opened the image in the same tab and i got stuck on it
+target="_blank" opens it in a new tab instead
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target
