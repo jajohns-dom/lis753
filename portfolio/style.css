@@ -12,7 +12,7 @@ body {
 header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     padding: 12px 20px;
@@ -84,7 +84,7 @@ a {
 }
 
 .lead {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
 }
 
 .buttons {
@@ -109,7 +109,7 @@ a {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 
@@ -150,4 +150,18 @@ footer {
     border-top: 1px solid rgb(196, 186, 176);
     text-align: center;
     font-size: small;
+}
+
+@media all and (min-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+
+    .lead {
+        font-size: 1.15rem;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
