@@ -21,3 +21,10 @@ selectedIndex is the number of the one that's picked
 .text is the words shown for that options
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement/selectedIndex for ref
+
+final project
+
+footer was floating in the middle of the home page cause there isnt enough content
+body { display: flex; flex-direction: column; min-height: 100vh; } and main { flex: 1; }
+100vh is the full height of the window, main grows to fill it so the footer gets pushed to the bottom
+https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
