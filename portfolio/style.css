@@ -141,6 +141,10 @@ a {
     font-size: 0.9rem;
 }
 
+.card .more {
+    font-size: 0.9rem;
+}
+
 footer {
     padding: 12px;
     border-top: 1px solid rgb(226, 210, 192);
