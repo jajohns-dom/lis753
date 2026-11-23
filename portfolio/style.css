@@ -107,6 +107,40 @@ a {
     background: rgb(132, 100, 80);
 }
 
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgb(232, 218, 202);
+    border-radius: 10px;
+    background: rgb(255, 251, 246);
+}
+
+.card img {
+    width: 100%;
+    border: 1px solid rgb(232, 218, 202);
+    border-radius: 6px;
+}
+
+.card a:hover img,
+.card a:focus img {
+    border-color: rgb(130, 74, 40);
+}
+
+.card h3 {
+    font-size: 1rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
+
 footer {
     padding: 12px;
     border-top: 1px solid rgb(226, 210, 192);
