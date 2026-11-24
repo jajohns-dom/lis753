@@ -5,7 +5,7 @@ body {
     margin: 0;
     background: rgb(176, 166, 156);
     color: rgb(56, 48, 43);
-    font-family: sans-serif;
+    font-family: "Lora", serif;
     line-height: 1.6;
 }
 
@@ -36,7 +36,7 @@ header {
 }
 
 h1, h2, h3 {
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
 }
 
@@ -49,8 +49,9 @@ h1 {
 h2 {
     margin-top: 0;
     margin-bottom: 14px;
-    border-bottom: 2px solid rgb(196, 186, 176);
+    border-bottom: 3px solid rgb(255, 255, 255);
     padding-bottom: 6px;
+    box-shadow: 0 1px 0 rgb(214, 206, 198);
 }
 
 .menu {
@@ -258,17 +259,12 @@ h2.work {
     margin-top: 36px;
 }
 
-main > h2 {
-    border-bottom: 3px solid rgb(255, 255, 255);
-    box-shadow: 0 3px 2px -2px rgba(86, 80, 76, 0.45);
-}
 
 .intro-photo {
     margin: 16px 0 0;
 }
 
 .photo-frame {
-    display: flex;
     padding: 6px;
     border-radius: 8px;
     background: rgb(150, 150, 150);
@@ -276,6 +272,7 @@ main > h2 {
 }
 
 .photo-frame img {
+    display: block;
     box-sizing: border-box;
     width: 100%;
     max-height: 320px;
@@ -296,8 +293,9 @@ main > h2 {
 @media all and (min-width: 1000px) {
     .intro {
         display: grid;
-        grid-template-columns: 1fr 340px;
-        gap: 32px;
+        grid-template-columns: 1fr 270px;
+        gap: 28px;
+        padding: 0 20px;
     }
 
     .intro .lead {
@@ -306,17 +304,10 @@ main > h2 {
     }
 
     .intro-photo {
-        display: flex;
-        flex-direction: column;
         margin: 16px 0;
     }
 
-    .photo-frame {
-        flex: 1 1 0;
-        min-height: 0;
-    }
-
     .photo-frame img {
-        min-height: 0;
+        height: 200px;
     }
 }
