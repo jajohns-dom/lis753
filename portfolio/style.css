@@ -100,7 +100,7 @@ a {
     font-size: 1.1rem;
 }
 
-.lead, .about {
+.lead {
     max-width: 760px;
 }
 
@@ -112,32 +112,46 @@ a {
 }
 
 .section {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
     padding: 15px;
     border: 1px solid rgb(200, 192, 184);
     border-radius: 10px;
     background: rgb(222, 218, 213);
 }
 
-.section p {
-    margin: 10px 0 0;
-    font-size: 0.9rem;
-    line-height: 1.45;
+.section img {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(200, 192, 184);
+    border-radius: 6px;
 }
 
-.button {
-    text-align: center;
-    padding: 10px 18px;
-    border-radius: 6px;
-    background: rgb(112, 92, 78);
-    color: rgb(247, 245, 242);
+.section a:hover img,
+.section a:focus img {
+    border-color: rgb(86, 80, 76);
+}
+
+.section h3 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.section h3 a {
+    color: rgb(86, 80, 76);
     text-decoration: none;
 }
 
-.button:hover,
-.button:focus {
-    background: rgb(90, 73, 61);
+.section h3 a:hover,
+.section h3 a:focus {
+    text-decoration: underline;
+}
+
+.section p {
+    margin: 6px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .cards {
@@ -203,8 +217,14 @@ footer a {
         width: auto;
     }
 
-    .sections {
-        grid-template-columns: repeat(3, 1fr);
+    .section {
+        grid-template-columns: 240px 1fr;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .section div {
+        max-width: 484px;
     }
 
     .menu ul {
