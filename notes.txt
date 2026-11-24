@@ -39,3 +39,8 @@ ex 13
 the table was cut off on phone width so the view details buttons were off the screen
 overflow-x: auto on a div around the table lets just the table scroll sideways instead of the whole page
 https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x for ref
+
+all 5 buttons just said view details so a screen reader would read the same thing 5 times
+aria-label on each button names its program
+aria-live="polite" on the confirmation p makes a screen reader read the thanks message when it shows up
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-live for ref
