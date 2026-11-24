@@ -253,3 +253,70 @@ footer a {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+h2.work {
+    margin-top: 36px;
+}
+
+main > h2 {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    box-shadow: 0 3px 2px -2px rgba(86, 80, 76, 0.45);
+}
+
+.intro-photo {
+    margin: 16px 0 0;
+}
+
+.photo-frame {
+    display: flex;
+    padding: 6px;
+    border-radius: 8px;
+    background: rgb(150, 150, 150);
+    box-shadow: 0 1px 3px rgba(86, 80, 76, 0.4);
+}
+
+.photo-frame img {
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 320px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.intro-photo figcaption {
+    margin-top: 8px;
+    color: rgb(112, 104, 98);
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1.4;
+    text-align: center;
+}
+
+@media all and (min-width: 1000px) {
+    .intro {
+        display: grid;
+        grid-template-columns: 1fr 340px;
+        gap: 32px;
+    }
+
+    .intro .lead {
+        max-width: none;
+        font-size: 1rem;
+    }
+
+    .intro-photo {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 0;
+    }
+
+    .photo-frame {
+        flex: 1 1 0;
+        min-height: 0;
+    }
+
+    .photo-frame img {
+        min-height: 0;
+    }
+}
