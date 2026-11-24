@@ -44,3 +44,7 @@ all 5 buttons just said view details so a screen reader would read the same thin
 aria-label on each button names its program
 aria-live="polite" on the confirmation p makes a screen reader read the thanks message when it shows up
 https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-live for ref
+
+on a phone the details show up way below the table so tapping view details looked like it did nothing
+scrollIntoView() on the details div scrolls the page down to it
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView for ref

@@ -13,6 +13,7 @@ buttons.forEach( function(button) {
         // find and show the relevant program details
         const target = button.dataset.target;
         document.getElementById(target).hidden = false;
+        document.getElementById(target).scrollIntoView();
 
     });
 
