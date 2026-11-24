@@ -104,6 +104,11 @@ a {
     max-width: 760px;
 }
 
+ul.lead {
+    margin: -8px 0;
+    padding-left: 1.4em;
+}
+
 .sections {
     display: grid;
     grid-template-columns: 1fr;
