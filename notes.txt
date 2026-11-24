@@ -33,3 +33,9 @@ put the img inside the a so the picture links to the full size
 clicking it opened the image in the same tab and i got stuck on it
 target="_blank" opens it in a new tab instead
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target
+
+ex 13
+
+the table was cut off on phone width so the view details buttons were off the screen
+overflow-x: auto on a div around the table lets just the table scroll sideways instead of the whole page
+https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x for ref

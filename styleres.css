@@ -68,6 +68,10 @@ main section {
     border-radius: 10px 10px 0 0; 
 }
 
+.table-wrap {
+    overflow-x: auto;
+}
+
 table.sector {
     width: 100%;
 }
