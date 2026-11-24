@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    background: rgb(245, 242, 237);
+    background: rgb(176, 166, 156);
     color: rgb(56, 48, 43);
     font-family: sans-serif;
     line-height: 1.6;
@@ -15,6 +15,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 12px 20px;
     background: rgb(86, 80, 76);
 }
@@ -85,6 +89,7 @@ main {
     max-width: 1100px;
     margin: 0 auto;
     padding: 16px 20px;
+    background: rgb(245, 242, 237);
 }
 
 a {
@@ -95,7 +100,7 @@ a {
     font-size: 1.1rem;
 }
 
-.lead {
+.lead, .about {
     max-width: 760px;
 }
 
@@ -178,10 +183,19 @@ a {
 }
 
 footer {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
     padding: 12px;
-    border-top: 1px solid rgb(196, 186, 176);
+    background: rgb(86, 80, 76);
+    color: rgb(247, 245, 242);
     text-align: center;
     font-size: small;
+}
+
+footer a {
+    color: rgb(247, 245, 242);
 }
 
 @media all and (min-width: 768px) {
