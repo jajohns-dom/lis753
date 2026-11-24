@@ -95,12 +95,30 @@ a {
     font-size: 1.1rem;
 }
 
-.buttons {
+.lead {
+    max-width: 760px;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.section {
     display: flex;
     flex-direction: column;
-    max-width: 360px;
-    gap: 10px;
-    margin: 20px auto 0;
+    padding: 15px;
+    border: 1px solid rgb(200, 192, 184);
+    border-radius: 10px;
+    background: rgb(222, 218, 213);
+}
+
+.section p {
+    margin: 10px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .button {
@@ -171,10 +189,8 @@ footer {
         width: auto;
     }
 
-    .buttons {
-        flex-direction: row;
-        max-width: none;
-        margin: 20px 0 0;
+    .sections {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .menu ul {
